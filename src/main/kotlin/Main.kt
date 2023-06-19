@@ -6,6 +6,12 @@ fun main() {
     //println(x)
 
     // laufzeitfehler:
-    val numbersList = listOf(1,2,3)
-    println(numbersList[4])
+    //val numbersList = listOf(1,2,3)
+   // println(numbersList[4])
+
+    // Beispiel: User Input aus der Konsole lesen und weiter verwenden
+    println("Hi, gib bitte deinen Namen ein:")
+    var name = readln()
+    println("Hallo, $name. Wie geht's dir?")
+
 }
